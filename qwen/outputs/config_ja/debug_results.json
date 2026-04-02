@@ -1,0 +1,30 @@
+[
+  {
+    "path": "test_videos/-2UPLUV7JLg_00.mp4",
+    "time": 14.5,
+    "center_x": 0.5,
+    "center_y": 0.5,
+    "type": "sideswipe",
+    "confidence": 0.9,
+    "why": "Two vehicles make contact on their sides at t=14.5s near the center of the frame.",
+    "raw": "{\n  \"time\": 14.5,\n  \"coordinate\": [0.5, 0.5],\n  \"type\": \"sideswipe\",\n  \"confidence\": 0.9,\n  \"why\": \"Two vehicles make contact on their sides at t=14.5s near the center of the frame.\"\n}",
+    "issues": "center_default",
+    "parse_stage": "strict",
+    "time_source": "json",
+    "fallback_used": 0
+  },
+  {
+    "path": "test_videos/-6SQSDj8cYU_00.mp4",
+    "time": 14.5,
+    "center_x": 0.5,
+    "center_y": 0.5,
+    "type": "sideswipe",
+    "confidence": 0.9,
+    "why": "Two vehicles make contact on their sides at t=14.5s near the center of the frame.",
+    "raw": "{\n  \"time\": 14.5,\n  \"coordinate\": [0.5, 0.5],\n  \"type\": \"sideswipe\",\n  \"confidence\": 0.9,\n  \"why\": \"Two vehicles make contact on their sides at t=14.5s near the center of the frame.\"\n}",
+    "issues": "center_default",
+    "parse_stage": "strict",
+    "time_source": "json",
+    "fallback_used": 0
+  }
+]

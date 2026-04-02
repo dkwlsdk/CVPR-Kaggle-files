@@ -1,0 +1,39 @@
+The following {n_frames} frames are sampled from a {duration:.1f}-second dashcam video (recorded at {fps} FPS). 
+Each frame is visually labeled with a timestamp [t=XX.XXs].
+
+### CRITICAL INSTRUCTION:
+**Every video provided in this task contains exactly one traffic accident.** - There are NO videos without crashes. 
+- Do NOT output "unknown", "none", or "no accident". 
+- Your absolute priority is to find the EXACT frame of the first physical impact.
+
+### TASK:
+Analyze the physical interaction and output a structured JSON report. 
+
+### OUTPUT JSON FORMAT:
+Return exactly one JSON object with no markdown formatting:
+{{
+  "accident_time": <float: exact timestamp of first contact>,
+  "center_x": <float: normalized x in [0,1]>,
+  "center_y": <float: normalized y in [0,1]>,
+  "type": <"rear-end"|"head-on"|"sideswipe"|"t-bone"|"single">,
+  "confidence": <float: 0.0 to 1.0>,
+  "reasoning": <string: MUST describe the specific visual evidence at the 'accident_time'.>
+}}
+
+### REASONING RULES:
+The "reasoning" field MUST explicitly explain **WHY** you identified that specific timestamp as the crash moment. 
+- Example: "At t=XX.XXs, the front bumper of the sedan makes first visible contact with the rear-left of the SUV."
+- Example: "Sudden camera shake and debris appearance confirm the impact with the guardrail at t=XX.XXs."
+
+### CRASH TYPE CRITERIA:
+- "single": Collision with static environment (barrier, pole, tree, curb, etc.).
+- "rear-end": Longitudinal impact; front-to-rear contact in the same lane.
+- "head-on": Opposite directions; front-to-front contact.
+- "t-bone": Perpendicular or angular impact; front-to-side contact.
+- "sideswipe": Lateral/parallel contact; side-to-side scraping.
+
+
+### MANDATORY RULES:
+1. **First Contact Only**: Identify the very first moment of physical touch, not the full development of the crash.
+2. **Coordinate Precision**: Use the center of the minimum circumscribed bounding box enclosing all involved objects at the moment of impact.
+3. **No Nulls**: All fields must be populated based on your best physical reconstruction of the scene.

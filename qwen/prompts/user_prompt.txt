@@ -1,0 +1,42 @@
+Analyze this {duration:.1f}-second dashcam video sampled at {fps} FPS (~{n_frames} frames).
+
+## Extraction Rules
+
+### 1. Collision Time (time)
+- Identify the exact moment when vehicles first make physical contact.
+- Chain Reaction Rule: For multi-vehicle pile-ups, identify the first point of contact between any two involved objects.
+- Format: seconds with milliseconds (for example, 3.5 means 3 seconds and 500 ms).
+- Do NOT use hh:mm:ss format.
+
+### 2. Collision Coordinate (coordinate)
+- Normalized Coordinate System: top-left = [0, 0], bottom-right = [1, 1].
+- Multi-vehicle accident: calculate the center point of the minimum circumscribed bounding box enclosing all involved vehicles at first contact.
+- Single-vehicle accident: return the center point of the involved vehicle's bounding box.
+- Format: [x, y] as normalized floats.
+
+### 3. Collision Type (type)
+Choose exactly one:
+- head-on: front ends of two vehicles collide (opposite directions)
+- rear-end: front of vehicle A hits rear of vehicle B (same direction)
+- sideswipe: sides of two vehicles make contact (parallel, same or opposite direction)
+- t-bone: front of vehicle A hits side of vehicle B (perpendicular)
+- single: vehicle collides with non-vehicle object (wall, guardrail, pole, tree, barrier, curb) or crashes without colliding with another vehicle
+
+## Output Format
+Return only one JSON object (no markdown, no extra text):
+{{
+  "time": <float, seconds from start in [0.0, {duration:.2f}]>,
+  "coordinate": [<float x in [0,1]>, <float y in [0,1]>],
+  "type": "<head-on|rear-end|sideswipe|t-bone|single>",
+  "confidence": <float in [0,1]>,
+  "why": "<short reason>"
+}}
+
+## Example
+{{
+  "time": 4.2,
+  "coordinate": [0.65, 0.48],
+  "type": "rear-end",
+  "confidence": 0.85,
+  "why": "Vehicle A's front bumper contacts Vehicle B's rear at t=4.2s near the center-right area."
+}}

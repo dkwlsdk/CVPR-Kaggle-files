@@ -1,0 +1,6 @@
+torch
+transformers
+qwen-vl-utils
+pandas
+tqdm
+opencv-python

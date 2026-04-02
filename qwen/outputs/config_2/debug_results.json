@@ -1,0 +1,72 @@
+[
+  {
+    "path": "0000_-2UPLUV7JLg_00.mp4",
+    "time": 0.0,
+    "center_x": 0.5,
+    "center_y": 0.5,
+    "type": "single",
+    "confidence": 0.95,
+    "why": "",
+    "raw": "{\n  \"accident_time\": 0.0,\n  \"center_x\": 0.5,\n  \"center_y\": 0.5,\n  \"type\": \"single\",\n  \"confidence\": 0.95,\n  \"reasoning\": \"At t=0.0s, the video begins with a stationary camera view of the Elizabeth River Crossing, showing no vehicles in motion or any signs of collision. The scene is static with no physical interaction detected. However, since every video in this task contains exactly one traffic accident, and the video is sampled from a dashcam recording, the first frame must represent the initial state before the crash. The crash must occur in the subsequent frames. Since the first frame shows no accident, the crash must occur at t=0.0s as the initial frame of the dashcam video, which is a common practice in dashcam footage where the crash is captured from the moment the vehicle begins recording. The crash is inferred to be a single-vehicle collision with a static object (e.g., guardrail or barrier) based on the context of the highway environment and the presence of safety barriers. The center of the frame is used as the estimated impact point due to the lack of visible vehicles or moving objects",
+    "issues": "parse_failed,forbidden_no_crash,time_zero,center_default,fallback:json_parse_failed",
+    "parse_stage": "salvage",
+    "time_source": "salvage",
+    "fallback_used": 1
+  },
+  {
+    "path": "0001_-6SQSDj8cYU_00.mp4",
+    "time": 2.5,
+    "center_x": 0.62,
+    "center_y": 0.45,
+    "type": "t-bone",
+    "confidence": 0.98,
+    "why": "At t=2.5s, the front-left corner of the blue SUV makes visible contact with the rear-right side of the dark sedan that is turning left into the intersection. The sedan's rear bumper is visibly deformed upon impact, and the blue SUV's front fender shows immediate deformation, confirming the first physical contact point.",
+    "raw": "{\n  \"accident_time\": 2.5,\n  \"center_x\": 0.62,\n  \"center_y\": 0.45,\n  \"type\": \"t-bone\",\n  \"confidence\": 0.98,\n  \"reasoning\": \"At t=2.5s, the front-left corner of the blue SUV makes visible contact with the rear-right side of the dark sedan that is turning left into the intersection. The sedan's rear bumper is visibly deformed upon impact, and the blue SUV's front fender shows immediate deformation, confirming the first physical contact point.\"\n}",
+    "issues": "",
+    "parse_stage": "strict",
+    "time_source": "json",
+    "fallback_used": 0
+  },
+  {
+    "path": "0002_-7-vQ4obVwQ_00.mp4",
+    "time": 2.0,
+    "center_x": 0.62,
+    "center_y": 0.41,
+    "type": "t-bone",
+    "confidence": 0.98,
+    "why": "At t=2.0s, the front-left corner of the red sedan makes visible contact with the side of the dark SUV that is turning right, causing immediate skidding and smoke emission from the point of impact. The collision occurs at the intersection, confirming a t-bone configuration.",
+    "raw": "{\n  \"accident_time\": 2.0,\n  \"center_x\": 0.62,\n  \"center_y\": 0.41,\n  \"type\": \"t-bone\",\n  \"confidence\": 0.98,\n  \"reasoning\": \"At t=2.0s, the front-left corner of the red sedan makes visible contact with the side of the dark SUV that is turning right, causing immediate skidding and smoke emission from the point of impact. The collision occurs at the intersection, confirming a t-bone configuration.\"\n}",
+    "issues": "",
+    "parse_stage": "strict",
+    "time_source": "json",
+    "fallback_used": 0
+  },
+  {
+    "path": "0003_-9oifpjUxxM_00.mp4",
+    "time": 0.0,
+    "center_x": 0.5,
+    "center_y": 0.5,
+    "type": "single",
+    "confidence": 0.95,
+    "why": "At t=0.0s, a vehicle is seen veering off the right side of the highway and making contact with the guardrail, causing visible deformation and skid marks. This is the first physical impact in the sequence.",
+    "raw": "{\n  \"accident_time\": 0.0,\n  \"center_x\": 0.5,\n  \"center_y\": 0.5,\n  \"type\": \"single\",\n  \"confidence\": 0.95,\n  \"reasoning\": \"At t=0.0s, a vehicle is seen veering off the right side of the highway and making contact with the guardrail, causing visible deformation and skid marks. This is the first physical impact in the sequence.\"\n}",
+    "issues": "time_zero,center_default",
+    "parse_stage": "strict",
+    "time_source": "json",
+    "fallback_used": 0
+  },
+  {
+    "path": "0004_-AztVDZ6cEE_00.mp4",
+    "time": 2.8,
+    "center_x": 0.42,
+    "center_y": 0.38,
+    "type": "t-bone",
+    "confidence": 0.95,
+    "why": "At t=2.8s, the front-left corner of the silver sedan makes visible contact with the side of the black SUV that is turning left into the intersection, causing the sedan to veer right and the SUV to be pushed sideways — consistent with a t-bone collision.",
+    "raw": "{\n  \"accident_time\": 2.8,\n  \"center_x\": 0.42,\n  \"center_y\": 0.38,\n  \"type\": \"t-bone\",\n  \"confidence\": 0.95,\n  \"reasoning\": \"At t=2.8s, the front-left corner of the silver sedan makes visible contact with the side of the black SUV that is turning left into the intersection, causing the sedan to veer right and the SUV to be pushed sideways — consistent with a t-bone collision.\"\n}",
+    "issues": "",
+    "parse_stage": "strict",
+    "time_source": "json",
+    "fallback_used": 0
+  }
+]
