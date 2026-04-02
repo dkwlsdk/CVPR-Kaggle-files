@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+from typing import Dict, List, Optional
+
+from qwen_ver_common import clone_base_cfg, make_time_prompt, run_with_cfg
+
+
+def build_time_prompt(metadata: Dict[str, str], failed_times: Optional[List[float]] = None) -> str:
+    instruction_lines = [
+        'Carefully analyze the ENTIRE video.',
+        'Find the earliest accident_time in seconds when physical contact first begins.',
+        'accident_time must be the first frame where physical contact is visible. Do NOT use a merely imminent or unavoidable collision moment.',
+        'Ignore the exact location and the accident type in this step.',
+        'Focus only on accurately detecting the first physical contact time.',
+    ]
+    return make_time_prompt(metadata, failed_times, 'ver1_first_contact_only', instruction_lines)
+
+
+cfg = clone_base_cfg('qwen_ver1', build_time_prompt)
+
+
+if __name__ == '__main__':
+    run_with_cfg(cfg)
