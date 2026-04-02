@@ -1,0 +1,2 @@
+video_name,frame_idx,track_id,class_id,x1,y1,x2,y2,cx,cy,dx,dy,dframes,velocity,direction,acceleration,direction_change,rolling_dx,rolling_dy,traj_direction,curvature
+MRyEislt23s_00,48,1,3,266.50000034821426,214.09999975,285.99999965178574,228.10000025,276.25,221.1,,,,0.0,0.0,0.0,0.0,,,0.0,0.0

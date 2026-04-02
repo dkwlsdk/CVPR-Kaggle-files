@@ -1,0 +1,2 @@
+video_name,frame_idx,track_A,track_B,distance,dir_A,dir_B,traj_dir_A,traj_dir_B,dx_A,dy_A,dx_B,dy_B,pair,dframes,approach_speed,ttc,relative_angle,trajectory_angle_diff,v_rel
+KIAzlkbMog4_00,94,6,5,890.5211620169393,0.0,0.0,0.0,3.141592653589793,,,0.6499999999998636,0.0,5_6,,0.0,9999.0,0.0,180.0,0.0

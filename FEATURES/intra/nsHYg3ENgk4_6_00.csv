@@ -1,0 +1,3 @@
+video_name,frame_idx,track_id,class_id,x1,y1,x2,y2,cx,cy,dx,dy,dframes,velocity,direction,acceleration,direction_change,rolling_dx,rolling_dy,traj_direction,curvature
+nsHYg3ENgk4_6_00,33,1,2,8.694958353316906e-08,489.99999975,54.49999991305042,646.70000025,27.25,568.35,,,,0.0,0.0,0.0,0.0,,,0.0,0.0
+nsHYg3ENgk4_6_00,117,2,0,191.00000048609883,606.6999997500001,411.2999995139011,720.00000025,301.15,663.35,,,,0.0,0.0,0.0,0.0,,,0.0,0.0

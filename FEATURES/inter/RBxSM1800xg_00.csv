@@ -1,0 +1,2 @@
+video_name,frame_idx,track_A,track_B,distance,dir_A,dir_B,traj_dir_A,traj_dir_B,dx_A,dy_A,dx_B,dy_B,pair,dframes,approach_speed,ttc,relative_angle,trajectory_angle_diff,v_rel
+RBxSM1800xg_00,10,3,2,193.34231300985306,0.0,0.0,0.0,0.0,,,,,2_3,,0.0,9999.0,0.0,0.0,0.0

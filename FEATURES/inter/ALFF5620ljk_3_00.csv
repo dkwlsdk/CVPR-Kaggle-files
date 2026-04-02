@@ -1,0 +1,2 @@
+video_name,frame_idx,track_A,track_B,distance,dir_A,dir_B,traj_dir_A,traj_dir_B,dx_A,dy_A,dx_B,dy_B,pair,dframes,approach_speed,ttc,relative_angle,trajectory_angle_diff,v_rel
+ALFF5620ljk_3_00,138,3,2,413.9229427079392,0.0,1.366778347202339,0.0,1.1659045405098007,,,0.30000000000001137,1.4499999999999886,2_3,,0.0,9999.0,78.31063082456029,66.8014094863511,0.0

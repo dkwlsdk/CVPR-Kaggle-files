@@ -1,0 +1,2 @@
+video_name,frame_idx,track_A,track_B,distance,dir_A,dir_B,traj_dir_A,traj_dir_B,dx_A,dy_A,dx_B,dy_B,pair,dframes,approach_speed,ttc,relative_angle,trajectory_angle_diff,v_rel
+kd7QwQqeJZQ_01,188,10,6,1094.0954265967846,-2.0778948311872307,0.0,1.5707963267948966,1.5707963267948966,-0.5,-0.9000000000000057,0.0,0.0,6_10,,0.0,9999.0,119.05460409907698,0.0,0.0

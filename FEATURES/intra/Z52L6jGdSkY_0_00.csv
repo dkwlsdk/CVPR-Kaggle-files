@@ -1,0 +1,2 @@
+video_name,frame_idx,track_id,class_id,x1,y1,x2,y2,cx,cy,dx,dy,dframes,velocity,direction,acceleration,direction_change,rolling_dx,rolling_dy,traj_direction,curvature
+Z52L6jGdSkY_0_00,6,1,1,683.3000002779003,487.99999975,935.2999997220996,714.70000025,809.3,601.35,,,,0.0,0.0,0.0,0.0,,,0.0,0.0

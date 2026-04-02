@@ -1,0 +1,2 @@
+video_name,frame_idx,track_id,class_id,x1,y1,x2,y2,cx,cy,dx,dy,dframes,velocity,direction,acceleration,direction_change,rolling_dx,rolling_dy,traj_direction,curvature
+xKT7khciy-c_18_00,17,1,1,104.10000042975662,79.69999975000002,181.79999957024336,124.90000025,142.95,102.30000000000001,,,,0.0,0.0,0.0,0.0,,,0.0,0.0

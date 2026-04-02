@@ -1,0 +1,2 @@
+video_name,frame_idx,track_A,track_B,distance,dir_A,dir_B,traj_dir_A,traj_dir_B,dx_A,dy_A,dx_B,dy_B,pair,dframes,approach_speed,ttc,relative_angle,trajectory_angle_diff,v_rel
+wScVipt0pWk_3_00,40,12,2,265.0103488545306,-0.10711532335223227,1.5707963267948966,-0.30273220827387554,-2.9889433251945574,4.649999999999977,-0.5,0.0,0.05000000000001137,2_12,,0.0,9999.0,96.13725594926201,153.90855988067798,0.0
