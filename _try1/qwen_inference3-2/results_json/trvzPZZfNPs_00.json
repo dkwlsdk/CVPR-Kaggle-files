@@ -1,0 +1,57 @@
+{
+  "status": "failed",
+  "failed_stage": "type",
+  "error": "Failed to get valid JSON response for type.",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/trvzPZZfNPs_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/trvzPZZfNPs_00.mp4",
+    "region": "Virginia",
+    "scene_layout": "highway",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Very_Poor",
+    "no_frames": "124",
+    "duration": "20.75",
+    "height": "720",
+    "width": "960"
+  },
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/trvzPZZfNPs_00_frame_t17.600.jpg",
+  "frame_index": 105,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/trvzPZZfNPs_00.jsonl",
+  "submission_row": {
+    "path": "videos/trvzPZZfNPs_00.mp4",
+    "accident_time": 17.6,
+    "center_x": 0.547,
+    "center_y": 0.274,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/trvzPZZfNPs_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/trvzPZZfNPs_00.csv",
+    "selected_type_track_ids": [
+      169643,
+      169649
+    ],
+    "type_track_match_mode": "inside_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      169643,
+      169649
+    ],
+    "match_mode": "inside_bbox",
+    "matched_frame_idx": 105,
+    "track_ids_in_context": [
+      169643,
+      169649
+    ],
+    "pair_ids_in_context": [
+      "169643_169649"
+    ]
+  },
+  "accident_time": 17.6
+}

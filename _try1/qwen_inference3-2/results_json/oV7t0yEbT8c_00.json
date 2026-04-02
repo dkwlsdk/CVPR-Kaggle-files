@@ -1,0 +1,52 @@
+{
+  "status": "failed",
+  "failed_stage": "unexpected",
+  "error": "unsupported format string passed to NoneType.__format__",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/oV7t0yEbT8c_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/oV7t0yEbT8c_00.mp4",
+    "region": "World",
+    "scene_layout": "city_street",
+    "weather": "snow",
+    "day_time": "day",
+    "quality": "Good",
+    "no_frames": "161",
+    "duration": "5.433334",
+    "height": "1080",
+    "width": "1920"
+  },
+  "frame_path": null,
+  "frame_index": null,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/oV7t0yEbT8c_00.jsonl",
+  "submission_row": {
+    "path": "videos/oV7t0yEbT8c_00.mp4",
+    "accident_time": 3.7,
+    "center_x": 0.67,
+    "center_y": 0.41,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/oV7t0yEbT8c_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/oV7t0yEbT8c_00.csv",
+    "selected_type_track_ids": [
+      -4
+    ],
+    "type_track_match_mode": "fallback_single",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      -4
+    ],
+    "match_mode": "fallback_single",
+    "matched_frame_idx": 111,
+    "track_ids_in_context": [
+      -4
+    ],
+    "pair_ids_in_context": []
+  },
+  "accident_time": 3.7
+}

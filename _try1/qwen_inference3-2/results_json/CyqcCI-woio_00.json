@@ -1,0 +1,60 @@
+{
+  "status": "ok",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/CyqcCI-woio_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/CyqcCI-woio_00.mp4",
+    "region": "Minnesota",
+    "scene_layout": "signalized_intersection",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Good",
+    "no_frames": "437",
+    "duration": "14.567",
+    "height": "1080",
+    "width": "2400"
+  },
+  "result": {
+    "accident_time": 7.434,
+    "center_x": 0.72,
+    "center_y": 0.4,
+    "type": "t-bone"
+  },
+  "frame_index": 223,
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/CyqcCI-woio_00_frame_t7.434.jpg",
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/CyqcCI-woio_00.jsonl",
+  "submission_row": {
+    "path": "videos/CyqcCI-woio_00.mp4",
+    "accident_time": 7.434,
+    "center_x": 0.72,
+    "center_y": 0.4,
+    "type": "t-bone"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/CyqcCI-woio_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/CyqcCI-woio_00.csv",
+    "selected_type_track_ids": [
+      37173,
+      37166
+    ],
+    "type_track_match_mode": "inside_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      37173,
+      37166
+    ],
+    "match_mode": "inside_bbox",
+    "matched_frame_idx": 223,
+    "track_ids_in_context": [
+      37173,
+      37166
+    ],
+    "pair_ids_in_context": [
+      "37166_37173"
+    ]
+  }
+}

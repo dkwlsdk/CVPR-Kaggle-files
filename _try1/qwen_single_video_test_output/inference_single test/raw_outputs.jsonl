@@ -1,0 +1,3 @@
+{"path": "videos/__WFqm4i3vE_00.mp4", "stage": "time", "attempt": 1, "raw_output": "```json\n{\n  \"accident_time\": 10.0\n}\n```\n"}
+{"path": "videos/__WFqm4i3vE_00.mp4", "stage": "location", "attempt": 1, "raw_output": "```json\n{\n  \"center_x\": 0.53,\n  \"center_y\": 0.51\n}\n```\n"}
+{"path": "videos/__WFqm4i3vE_00.mp4", "stage": "type", "attempt": 1, "raw_output": "{\n  \"type\": \"single\"\n}\n"}

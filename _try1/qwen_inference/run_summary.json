@@ -1,0 +1,16 @@
+{
+  "model_name": "Qwen/Qwen3.5-9B",
+  "video_dir": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/Detection_Dataset/temp",
+  "metadata_csv_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/데이터셋/test_metadata.csv",
+  "output_dir": "/root/Desktop/workspace/ja/qwen_inference",
+  "total_rows": 1,
+  "success_count": 0,
+  "failure_count": 1,
+  "failed_videos": [],
+  "submission_csv_path": "/root/Desktop/workspace/ja/qwen_inference/submission_dl.csv",
+  "started_at": "2026-03-19T20:12:32Z",
+  "finished_at": "2026-03-19T20:12:43Z",
+  "global_error": "Model loading failed: Some modules are dispatched on the CPU or the disk. Make sure you have enough GPU RAM to fit the quantized model. If you want to dispatch the model on the CPU or the disk while keeping these modules in 32-bit, you need to set `llm_int8_enable_fp32_cpu_offload=True` and pass a custom `device_map` to `from_pretrained`. Check https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu for more details. ",
+  "test_mode": true,
+  "test_limit": 1
+}

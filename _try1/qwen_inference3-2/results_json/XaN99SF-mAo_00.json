@@ -1,0 +1,39 @@
+{
+  "status": "failed",
+  "failed_stage": "location",
+  "error": "Failed to get valid JSON response for location.",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/XaN99SF-mAo_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/XaN99SF-mAo_00.mp4",
+    "region": "Arkansas",
+    "scene_layout": "highway",
+    "weather": "rain",
+    "day_time": "night",
+    "quality": "Very_Poor",
+    "no_frames": "239",
+    "duration": "30.0",
+    "height": "720",
+    "width": "1280"
+  },
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/XaN99SF-mAo_00_frame_t27.600.jpg",
+  "frame_index": 220,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/XaN99SF-mAo_00.jsonl",
+  "submission_row": {
+    "path": "videos/XaN99SF-mAo_00.mp4",
+    "accident_time": 27.6,
+    "center_x": 0.5,
+    "center_y": 0.5,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/XaN99SF-mAo_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/XaN99SF-mAo_00.csv",
+    "selected_type_track_ids": [],
+    "type_track_match_mode": null,
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "accident_time": 27.6
+}

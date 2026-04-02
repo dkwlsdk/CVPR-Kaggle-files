@@ -1,0 +1,60 @@
+{
+  "status": "ok",
+  "video_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/Detection_Dataset/temp/Z4kg2Ev3vhk_00.mp4",
+  "metadata_csv_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/데이터셋/test_metadata.csv",
+  "metadata": {
+    "path": "videos/Z4kg2Ev3vhk_00.mp4",
+    "region": "Georgia",
+    "scene_layout": "highway",
+    "weather": "normal",
+    "day_time": "night",
+    "quality": "Very_Poor",
+    "no_frames": "424",
+    "duration": "29.967",
+    "height": "1080",
+    "width": "1584"
+  },
+  "result": {
+    "accident_time": 28.907,
+    "center_x": 0.419,
+    "center_y": 0.13,
+    "type": "head-on"
+  },
+  "frame_index": 409,
+  "frame_path": "/root/Desktop/workspace/ja/qwen_inference_ver4_output/frames/Z4kg2Ev3vhk_00_frame_t28.907.jpg",
+  "raw_log_path": "/root/Desktop/workspace/ja/qwen_inference_ver4_output/raw_logs/Z4kg2Ev3vhk_00.jsonl",
+  "submission_row": {
+    "path": "videos/Z4kg2Ev3vhk_00.mp4",
+    "accident_time": 28.907,
+    "center_x": 0.419,
+    "center_y": 0.13,
+    "type": "head-on"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/Detection_Dataset/test_features/intra/Z4kg2Ev3vhk_00.csv",
+    "inter_csv_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/Detection_Dataset/test_features/inter/Z4kg2Ev3vhk_00.csv",
+    "selected_type_track_ids": [
+      113028,
+      113263
+    ],
+    "type_track_match_mode": "inside_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      113028,
+      113263
+    ],
+    "match_mode": "inside_bbox",
+    "matched_frame_idx": 409,
+    "track_ids_in_context": [
+      113028,
+      113263
+    ],
+    "pair_ids_in_context": [
+      "113028_113263"
+    ]
+  }
+}

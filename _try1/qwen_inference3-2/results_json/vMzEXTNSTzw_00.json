@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/vMzEXTNSTzw_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/vMzEXTNSTzw_00.mp4",
+    "region": "Virginia",
+    "scene_layout": "signalized_intersection",
+    "weather": "normal",
+    "day_time": "night",
+    "quality": "Fine",
+    "no_frames": "224",
+    "duration": "16.875",
+    "height": "720",
+    "width": "960"
+  },
+  "result": {
+    "accident_time": 16.875,
+    "center_x": 0.132,
+    "center_y": 0.394,
+    "type": "t-bone"
+  },
+  "frame_index": 224,
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/vMzEXTNSTzw_00_frame_t16.875.jpg",
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/vMzEXTNSTzw_00.jsonl",
+  "submission_row": {
+    "path": "videos/vMzEXTNSTzw_00.mp4",
+    "accident_time": 16.875,
+    "center_x": 0.132,
+    "center_y": 0.394,
+    "type": "t-bone"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/vMzEXTNSTzw_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/vMzEXTNSTzw_00.csv",
+    "selected_type_track_ids": [
+      172633
+    ],
+    "type_track_match_mode": "fallback_single",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      172633
+    ],
+    "match_mode": "fallback_single",
+    "matched_frame_idx": 224,
+    "track_ids_in_context": [
+      172633
+    ],
+    "pair_ids_in_context": []
+  }
+}

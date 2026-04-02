@@ -1,0 +1,57 @@
+{
+  "status": "failed",
+  "failed_stage": "unexpected",
+  "error": "unsupported format string passed to NoneType.__format__",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/NW8ZJK5zv_M_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/NW8ZJK5zv_M_00.mp4",
+    "region": "Alabama",
+    "scene_layout": "highway",
+    "weather": "normal",
+    "day_time": "night",
+    "quality": "Poor",
+    "no_frames": "452",
+    "duration": "30.0",
+    "height": "1080",
+    "width": "1620"
+  },
+  "frame_path": null,
+  "frame_index": null,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/NW8ZJK5zv_M_00.jsonl",
+  "submission_row": {
+    "path": "videos/NW8ZJK5zv_M_00.mp4",
+    "accident_time": 23.562,
+    "center_x": 0.42,
+    "center_y": 0.92,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/NW8ZJK5zv_M_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/NW8ZJK5zv_M_00.csv",
+    "selected_type_track_ids": [
+      -25,
+      -24
+    ],
+    "type_track_match_mode": "inside_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      -25,
+      -24
+    ],
+    "match_mode": "inside_bbox",
+    "matched_frame_idx": 355,
+    "track_ids_in_context": [
+      -25,
+      -24
+    ],
+    "pair_ids_in_context": [
+      "-25_-24"
+    ]
+  },
+  "accident_time": 23.562
+}

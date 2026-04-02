@@ -1,0 +1,60 @@
+{
+  "status": "ok",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/Hjax6nMPd6Q_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/Hjax6nMPd6Q_00.mp4",
+    "region": "World",
+    "scene_layout": "city_street",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Excellent",
+    "no_frames": "737",
+    "duration": "29.96",
+    "height": "1080",
+    "width": "1920"
+  },
+  "result": {
+    "accident_time": 8.171,
+    "center_x": 0.489,
+    "center_y": 0.23,
+    "type": "rear-end"
+  },
+  "frame_index": 201,
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/Hjax6nMPd6Q_00_frame_t8.171.jpg",
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/Hjax6nMPd6Q_00.jsonl",
+  "submission_row": {
+    "path": "videos/Hjax6nMPd6Q_00.mp4",
+    "accident_time": 8.171,
+    "center_x": 0.489,
+    "center_y": 0.23,
+    "type": "rear-end"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/Hjax6nMPd6Q_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/Hjax6nMPd6Q_00.csv",
+    "selected_type_track_ids": [
+      55625,
+      55674
+    ],
+    "type_track_match_mode": "inside_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      55625,
+      55674
+    ],
+    "match_mode": "inside_bbox",
+    "matched_frame_idx": 201,
+    "track_ids_in_context": [
+      55625,
+      55674
+    ],
+    "pair_ids_in_context": [
+      "55625_55674"
+    ]
+  }
+}

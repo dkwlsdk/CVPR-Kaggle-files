@@ -1,0 +1,60 @@
+{
+  "status": "ok",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/Yllfxm5QxVE_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/Yllfxm5QxVE_00.mp4",
+    "region": "Arkansas",
+    "scene_layout": "highway",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Fine",
+    "no_frames": "228",
+    "duration": "30.0",
+    "height": "1080",
+    "width": "1920"
+  },
+  "result": {
+    "accident_time": 24.342,
+    "center_x": 0.55,
+    "center_y": 0.65,
+    "type": "head-on"
+  },
+  "frame_index": 185,
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/Yllfxm5QxVE_00_frame_t24.342.jpg",
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/Yllfxm5QxVE_00.jsonl",
+  "submission_row": {
+    "path": "videos/Yllfxm5QxVE_00.mp4",
+    "accident_time": 24.342,
+    "center_x": 0.55,
+    "center_y": 0.65,
+    "type": "head-on"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/Yllfxm5QxVE_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/Yllfxm5QxVE_00.csv",
+    "selected_type_track_ids": [
+      96983,
+      97104
+    ],
+    "type_track_match_mode": "nearest_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      96983,
+      97104
+    ],
+    "match_mode": "nearest_bbox",
+    "matched_frame_idx": 187,
+    "track_ids_in_context": [
+      96983,
+      97104
+    ],
+    "pair_ids_in_context": [
+      "96983_97104"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "status": "failed",
+  "failed_stage": "location",
+  "error": "Invalid location prediction schema: {'reasoning': \"The image shows a highway scene with multiple lanes of traffic. The text 'WESTBOUND' indicates the direction of travel. The vehicles are moving away from the camera. There is no visible collision or accident in this specific frame. The traffic appears to be flowing normally, although there is a line of cars in the left lanes. The prompt states this is the 'FIRST clear moment of a traffic accident', but visually, no impact is occurring at this exact timestamp (2.636s). The cars are simply driving. However, looking closely at the leftmost lane, there is a white car (track 95260) and a dark car (track 95261) ahead of it. The prompt mentions a 'Bicycle' and a 'Car' in the tracking data, but they are not clearly visible as a collision pair in this frame. The most logical interpretation is that the accident is about to happen or has just happened, but the frame captures the moments before impact or a near-miss. Given the instruction to localize the 'primary collision point' and the lack of visible impact, I must infer the location based on the context of the accident. The accident likely involves the vehicles in the left lane. The white car is at the bottom left, and the dark car is further up. The 'collision point' would be between them. However, without a visible crash, I will estimate the center of the area where the accident is likely to occur or where the vehicles are interacting. The white car is at roughly (0.2, 0.8) and the dark car is at (0.1, 0.7). The center of this interaction zone is roughly (0.15, 0.75). Wait, looking at the image again, there is a white car in the left lane (bottom left) and a dark car in the lane to its right. The prompt mentions a bicycle and a car. The bicycle might be the small object near the white car. Let's assume the accident is between the white car and the dark car ahead of it. The white car is at x=0.2, y=0.8. The dark car is at x=0.1, y=0.7. The center would be around x=0.15, y=0.75. Let's refine. The white car is at (0.2, 0.8). The dark car is at (0.1, 0.7). The center is (0.15, 0.75). Let's look for other vehicles. There is a line of cars. The accident is likely involving the white car and the dark car. The coordinates (0.15, 0.75) seem reasonable for the center of the interaction between these two vehicles.\"}",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/UrmfisD-cpk_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/UrmfisD-cpk_00.mp4",
+    "region": "Arkansas",
+    "scene_layout": "highway",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Good",
+    "no_frames": "238",
+    "duration": "29.875",
+    "height": "720",
+    "width": "1280"
+  },
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/UrmfisD-cpk_00_frame_t2.636.jpg",
+  "frame_index": 20,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/UrmfisD-cpk_00.jsonl",
+  "submission_row": {
+    "path": "videos/UrmfisD-cpk_00.mp4",
+    "accident_time": 2.636,
+    "center_x": 0.5,
+    "center_y": 0.5,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/UrmfisD-cpk_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/UrmfisD-cpk_00.csv",
+    "selected_type_track_ids": [],
+    "type_track_match_mode": null,
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "accident_time": 2.636
+}

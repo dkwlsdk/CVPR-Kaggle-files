@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/XaqA-uzqeNc_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/XaqA-uzqeNc_00.mp4",
+    "region": "Alabama",
+    "scene_layout": "highway",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Fine",
+    "no_frames": "121",
+    "duration": "8.125",
+    "height": "720",
+    "width": "1080"
+  },
+  "result": {
+    "accident_time": 8.125,
+    "center_x": 0.6,
+    "center_y": 0.6,
+    "type": "single"
+  },
+  "frame_index": 121,
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/XaqA-uzqeNc_00_frame_t8.125.jpg",
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/XaqA-uzqeNc_00.jsonl",
+  "submission_row": {
+    "path": "videos/XaqA-uzqeNc_00.mp4",
+    "accident_time": 8.125,
+    "center_x": 0.6,
+    "center_y": 0.6,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/XaqA-uzqeNc_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/XaqA-uzqeNc_00.csv",
+    "selected_type_track_ids": [
+      99327
+    ],
+    "type_track_match_mode": "fallback_single",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      99327
+    ],
+    "match_mode": "fallback_single",
+    "matched_frame_idx": 122,
+    "track_ids_in_context": [
+      99327
+    ],
+    "pair_ids_in_context": []
+  }
+}

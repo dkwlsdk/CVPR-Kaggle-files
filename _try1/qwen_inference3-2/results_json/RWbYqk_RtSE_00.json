@@ -1,0 +1,57 @@
+{
+  "status": "failed",
+  "failed_stage": "type",
+  "error": "Invalid type prediction schema: {'reasoning': \"The image shows a highway scene in rainy conditions. There are multiple vehicles visible, but no clear collision is occurring in this specific frame. The vehicles appear to be driving in their respective lanes. The prompt states this is the 'FIRST clear moment of a traffic accident', but visually, the scene depicts normal traffic flow or perhaps a moment just before an event, or a minor incident that isn't clearly a collision between two vehicles in this specific snapshot. However, looking closely at the vehicles, there is no obvious impact. The prompt asks to classify the accident type. Given the options and the visual evidence of a highway scene with no clear collision happening right at this moment, 'single' is a possibility if a vehicle is going off-road or hitting a barrier, but none is clearly visible. 'rear-end', 'head-on', 'sideswipe', and 't-bone' all imply a collision between two vehicles. The tracking data mentions 'crossing' and 'side-impact-like', which suggests a sideswipe might be the intended classification based on the metadata provided, even if the visual is ambiguous. However, strictly following the instruction 'If uncertain, choose the single best guess' and 'Prioritize the visual evidence', the visual evidence shows no collision. But usually, these tasks imply an accident is happening. Let's re-examine. The vehicles are moving. There is no crash visible. This is tricky. Let's look at the tracking data again: 'Pair 81794_81857: relation=crossing, orientation=side-impact-like'. This strongly points to a sideswipe. The visual shows cars on a highway. The 'side-impact-like' description is the strongest clue. Therefore, sideswipe is the most likely intended answer despite the lack of a clear crash in the static image.\"}",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/RWbYqk_RtSE_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/RWbYqk_RtSE_00.mp4",
+    "region": "Virginia",
+    "scene_layout": "highway",
+    "weather": "rain",
+    "day_time": "day",
+    "quality": "Poor",
+    "no_frames": "191",
+    "duration": "12.75",
+    "height": "720",
+    "width": "960"
+  },
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/RWbYqk_RtSE_00_frame_t6.742.jpg",
+  "frame_index": 101,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/RWbYqk_RtSE_00.jsonl",
+  "submission_row": {
+    "path": "videos/RWbYqk_RtSE_00.mp4",
+    "accident_time": 6.742,
+    "center_x": 0.93,
+    "center_y": 0.75,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/RWbYqk_RtSE_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/RWbYqk_RtSE_00.csv",
+    "selected_type_track_ids": [
+      81794,
+      81857
+    ],
+    "type_track_match_mode": "nearest_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      81794,
+      81857
+    ],
+    "match_mode": "nearest_bbox",
+    "matched_frame_idx": 99,
+    "track_ids_in_context": [
+      81794,
+      81857
+    ],
+    "pair_ids_in_context": [
+      "81794_81857"
+    ]
+  },
+  "accident_time": 6.742
+}

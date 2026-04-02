@@ -1,0 +1,60 @@
+{
+  "status": "ok",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/8asB-NXAPSc_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/8asB-NXAPSc_00.mp4",
+    "region": "World",
+    "scene_layout": "signalized_intersection",
+    "weather": "normal",
+    "day_time": "night",
+    "quality": "Fine",
+    "no_frames": "327",
+    "duration": "14.733",
+    "height": "2026",
+    "width": "3840"
+  },
+  "result": {
+    "accident_time": 10.408,
+    "center_x": 0.58,
+    "center_y": 0.29,
+    "type": "single"
+  },
+  "frame_index": 231,
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/8asB-NXAPSc_00_frame_t10.408.jpg",
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/8asB-NXAPSc_00.jsonl",
+  "submission_row": {
+    "path": "videos/8asB-NXAPSc_00.mp4",
+    "accident_time": 10.408,
+    "center_x": 0.58,
+    "center_y": 0.29,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/8asB-NXAPSc_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/8asB-NXAPSc_00.csv",
+    "selected_type_track_ids": [
+      25647,
+      25646
+    ],
+    "type_track_match_mode": "inside_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      25647,
+      25646
+    ],
+    "match_mode": "inside_bbox",
+    "matched_frame_idx": 231,
+    "track_ids_in_context": [
+      25647,
+      25646
+    ],
+    "pair_ids_in_context": [
+      "25646_25647"
+    ]
+  }
+}

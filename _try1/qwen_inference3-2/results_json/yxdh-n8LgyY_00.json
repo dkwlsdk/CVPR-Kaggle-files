@@ -1,0 +1,57 @@
+{
+  "status": "failed",
+  "failed_stage": "type",
+  "error": "Invalid type prediction schema: {'reasoning': \"The image shows a highway scene with multiple vehicles. In the distance, on the right side of the median, there is a significant cloud of smoke or dust, indicating a collision has occurred. The vehicles involved appear to be traveling in the same direction (westbound). The smoke is located where vehicles are merging or changing lanes, suggesting a sideswipe or a collision while merging. However, looking closely at the smoke, it seems to be originating from a vehicle that has gone off the road or hit a barrier, or perhaps a collision between two vehicles. The prompt asks for the accident type. The smoke is the primary indicator. It looks like a vehicle has spun out or hit something. Let's look at the options. Rear-end, head-on, sideswipe, t-bone, single. The smoke is quite large and seems to be in the middle of the road, possibly involving a vehicle hitting the median or another vehicle. Given the 'oblique' and 'rear-end-like' relation in the tracking data, and the visual of smoke in the distance, it's likely a collision. The smoke is not clearly a head-on collision (opposite directions). It's not a single vehicle accident (hitting a pole) as there seems to be interaction. The most likely scenario given the smoke and the 'oblique' relation is a sideswipe or a rear-end that caused a spin. However, looking at the smoke, it looks like a vehicle has hit the median or gone off the road. Wait, let's re-evaluate. The smoke is in the distance. The vehicles are moving. The smoke is likely from a crash. The crash seems to involve vehicles in the same direction. The 'oblique' relation suggests a sideswipe. Let's assume sideswipe based on the oblique relation and the nature of highway crashes often being sideswipes during lane changes. But wait, the smoke is quite far back. Let's look at the vehicles. There is a white truck on the left. There are cars on the right. The smoke is in the middle lanes. It looks like a vehicle might have spun. Let's consider 'single' if it's just one car hitting the median. But the tracking data says 'Pair 183262_183278: relation=oblique'. This implies two vehicles. So it's not 'single'. Between rear-end, head-on, sideswipe, t-bone. Head-on is unlikely on a divided highway unless someone crossed the median. T-bone is unlikely on a highway. Rear-end is possible. Sideswipe is possible. The 'oblique' relation strongly points to sideswipe. The smoke suggests a violent impact, consistent with a sideswipe causing a spin. Therefore, sideswipe is the best guess.\"}",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/yxdh-n8LgyY_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/yxdh-n8LgyY_00.mp4",
+    "region": "Arkansas",
+    "scene_layout": "highway",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Fine",
+    "no_frames": "240",
+    "duration": "29.958",
+    "height": "720",
+    "width": "1280"
+  },
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/yxdh-n8LgyY_00_frame_t21.220.jpg",
+  "frame_index": 170,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/yxdh-n8LgyY_00.jsonl",
+  "submission_row": {
+    "path": "videos/yxdh-n8LgyY_00.mp4",
+    "accident_time": 21.22,
+    "center_x": 0.53,
+    "center_y": 0.33,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/yxdh-n8LgyY_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/yxdh-n8LgyY_00.csv",
+    "selected_type_track_ids": [
+      183278,
+      183262
+    ],
+    "type_track_match_mode": "nearest_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      183278,
+      183262
+    ],
+    "match_mode": "nearest_bbox",
+    "matched_frame_idx": 168,
+    "track_ids_in_context": [
+      183278,
+      183262
+    ],
+    "pair_ids_in_context": [
+      "183262_183278"
+    ]
+  },
+  "accident_time": 21.22
+}

@@ -1,0 +1,57 @@
+{
+  "status": "failed",
+  "failed_stage": "type",
+  "error": "Invalid type prediction schema: {'reasoning': \"The image shows a highway scene at night. On the left side, a car is visible with its headlights on, appearing to be in the process of a collision or just having collided. On the right side, a large white semi-truck is driving in the opposite direction. The car on the left is angled sharply, suggesting a loss of control or a collision with the barrier or another vehicle. However, looking closely at the car on the left (ID 8754), it appears to be driving on the wrong side of the median or barrier, heading towards the center. The truck (ID 8709) is on the right side. The metadata mentions 'oblique, orientation=head-on-like' for the pair. The car on the left is facing somewhat towards the right, and the truck is facing left. The car's position suggests it has crossed the median or is in a lane that puts it on a collision course with the truck or the barrier. Given the 'head-on-like' orientation and the car's position on the left side of the median facing right, while the truck is on the right side facing left, a head-on collision is the most plausible interpretation of the scene, even if the impact itself is not fully captured in this single frame. The car is clearly in a position to collide head-on with the truck or the barrier separating the lanes. Wait, looking closer at the car on the left, it seems to be hitting the barrier or going off the road. But the metadata says 'oblique, orientation=head-on-like'. Let's re-evaluate. The car is on the left, facing right. The truck is on the right, facing left. They are on opposite sides of a median. The car is angled towards the median. This looks like a car going off the road or hitting the median, but the 'head-on-like' relation suggests a potential head-on collision with the truck. However, the car is not directly in front of the truck. It's more like it's crossing the median. Let's look at the 'single' option. Is it a single vehicle accident? The car is on the left, possibly hitting the barrier. The truck is driving normally. If the car hits the barrier, it's a single vehicle accident. But the metadata says 'oblique, orientation=head-on-like'. This implies interaction. Let's look at the car again. It's a dark car with bright headlights. It is angled towards the right. The truck is on the right. The car is on the left. The car is moving towards the truck's path. This is a classic setup for a head-on collision. The car has crossed the median. Therefore, 'head-on' is the best fit.\"}",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/2vEysG50vYY_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/2vEysG50vYY_00.mp4",
+    "region": "Virginia",
+    "scene_layout": "highway",
+    "weather": "normal",
+    "day_time": "night",
+    "quality": "Poor",
+    "no_frames": "299",
+    "duration": "29.875",
+    "height": "720",
+    "width": "960"
+  },
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/2vEysG50vYY_00_frame_t21.482.jpg",
+  "frame_index": 215,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/2vEysG50vYY_00.jsonl",
+  "submission_row": {
+    "path": "videos/2vEysG50vYY_00.mp4",
+    "accident_time": 21.482,
+    "center_x": 0.156,
+    "center_y": 0.446,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/2vEysG50vYY_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/2vEysG50vYY_00.csv",
+    "selected_type_track_ids": [
+      8709,
+      8754
+    ],
+    "type_track_match_mode": "inside_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      8709,
+      8754
+    ],
+    "match_mode": "inside_bbox",
+    "matched_frame_idx": 215,
+    "track_ids_in_context": [
+      8709,
+      8754
+    ],
+    "pair_ids_in_context": [
+      "8709_8754"
+    ]
+  },
+  "accident_time": 21.482
+}

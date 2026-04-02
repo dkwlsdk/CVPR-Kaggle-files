@@ -1,0 +1,60 @@
+{
+  "status": "ok",
+  "video_path": "/home/adminuser/workspace/dk/temp/_-XReeuhpiE_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/_-XReeuhpiE_00.mp4",
+    "region": "Minnesota",
+    "scene_layout": "highway",
+    "weather": "snow",
+    "day_time": "day",
+    "quality": "Fine",
+    "no_frames": "695",
+    "duration": "29.967",
+    "height": "720",
+    "width": "1080"
+  },
+  "result": {
+    "accident_time": 12.5,
+    "center_x": 0.66,
+    "center_y": 0.32,
+    "type": "rear-end"
+  },
+  "frame_index": 290,
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/_-XReeuhpiE_00_frame_t12.500.jpg",
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/_-XReeuhpiE_00.jsonl",
+  "submission_row": {
+    "path": "videos/_-XReeuhpiE_00.mp4",
+    "accident_time": 12.5,
+    "center_x": 0.66,
+    "center_y": 0.32,
+    "type": "rear-end"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/_-XReeuhpiE_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/_-XReeuhpiE_00.csv",
+    "selected_type_track_ids": [
+      116711,
+      116716
+    ],
+    "type_track_match_mode": "nearest_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      116711,
+      116716
+    ],
+    "match_mode": "nearest_bbox",
+    "matched_frame_idx": 289,
+    "track_ids_in_context": [
+      116711,
+      116716
+    ],
+    "pair_ids_in_context": [
+      "116711_116716"
+    ]
+  }
+}

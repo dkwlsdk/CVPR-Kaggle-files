@@ -1,0 +1,57 @@
+{
+  "status": "failed",
+  "failed_stage": "type",
+  "error": "Failed to get valid JSON response for type.",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/HROdEY9OZk4_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/HROdEY9OZk4_00.mp4",
+    "region": "Alabama",
+    "scene_layout": "signalized_intersection",
+    "weather": "normal",
+    "day_time": "night",
+    "quality": "Good",
+    "no_frames": "449",
+    "duration": "29.967",
+    "height": "1080",
+    "width": "1620"
+  },
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/HROdEY9OZk4_00_frame_t2.500.jpg",
+  "frame_index": 37,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/HROdEY9OZk4_00.jsonl",
+  "submission_row": {
+    "path": "videos/HROdEY9OZk4_00.mp4",
+    "accident_time": 2.5,
+    "center_x": 0.62,
+    "center_y": 0.53,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/HROdEY9OZk4_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/HROdEY9OZk4_00.csv",
+    "selected_type_track_ids": [
+      54811,
+      54956
+    ],
+    "type_track_match_mode": "inside_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      54811,
+      54956
+    ],
+    "match_mode": "inside_bbox",
+    "matched_frame_idx": 37,
+    "track_ids_in_context": [
+      54811,
+      54956
+    ],
+    "pair_ids_in_context": [
+      "54811_54956"
+    ]
+  },
+  "accident_time": 2.5
+}

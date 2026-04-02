@@ -1,0 +1,57 @@
+{
+  "status": "failed",
+  "failed_stage": "type",
+  "error": "Invalid type prediction schema: {'reasoning': \"The image shows a highway scene with multiple vehicles. There is no visible collision, impact, or damage in this specific frame. The vehicles appear to be driving normally on a grade-separated intersection. The metadata indicates this is the 'FIRST clear moment' of an accident, but the visual evidence in this single frame does not show a collision. However, looking closely at the vehicle on the right (ID 6140) and the vehicle on the left (ID 6121), they are on different lanes. The prompt asks to classify the accident type based on the frame. Since no collision is visible, and the vehicles are moving in their respective lanes without interaction, this is likely a 'single' vehicle accident where the vehicle has gone off-road or hit a barrier, but the barrier isn't clearly damaged in a way that suggests a crash yet, or perhaps the accident is about to happen. Wait, looking at the prompt again, it says 'This image corresponds to the FIRST clear moment of a traffic accident'. If no accident is visible, it might be a 'single' accident where a car is off the road. Let's look at the car on the far right. It's driving away. The car on the left is driving away. The car in the middle is driving away. There is no collision. However, the prompt implies an accident is happening. Let's re-evaluate. Is it possible the car on the right is drifting? No. Is it possible the car on the left is drifting? No. The most likely scenario given the 'single' option and the lack of interaction between vehicles is that one vehicle is involved in an incident alone, perhaps going off the road or hitting a barrier, but the impact isn't fully captured or is subtle. Or, perhaps the 'single' category is the default when no multi-vehicle collision is evident. Let's look at the car on the right again. It's a white car. It's on the right shoulder or lane. The car on the left is a white car. It's in the left lane. The car in the middle is a white car. It's in the middle lane. Wait, looking at the car on the right (ID 6140), it seems to be slightly off the main travel lane, possibly on the shoulder or merging. But there's no other car to collide with. Therefore, 'single' is the most appropriate classification given the lack of inter-vehicle collision evidence in this frame.\"}",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/1BsCOLh_qEs_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/1BsCOLh_qEs_00.mp4",
+    "region": "Alabama",
+    "scene_layout": "grade_separated_intersection",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Fine",
+    "no_frames": "74",
+    "duration": "4.933",
+    "height": "1080",
+    "width": "1620"
+  },
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/1BsCOLh_qEs_00_frame_t2.733.jpg",
+  "frame_index": 41,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/1BsCOLh_qEs_00.jsonl",
+  "submission_row": {
+    "path": "videos/1BsCOLh_qEs_00.mp4",
+    "accident_time": 2.733,
+    "center_x": 0.35,
+    "center_y": 0.494,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/1BsCOLh_qEs_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/1BsCOLh_qEs_00.csv",
+    "selected_type_track_ids": [
+      6121,
+      6140
+    ],
+    "type_track_match_mode": "nearest_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      6121,
+      6140
+    ],
+    "match_mode": "nearest_bbox",
+    "matched_frame_idx": 43,
+    "track_ids_in_context": [
+      6121,
+      6140
+    ],
+    "pair_ids_in_context": [
+      "6121_6140"
+    ]
+  },
+  "accident_time": 2.733
+}

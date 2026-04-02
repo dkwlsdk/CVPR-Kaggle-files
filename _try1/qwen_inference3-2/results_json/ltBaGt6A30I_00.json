@@ -1,0 +1,39 @@
+{
+  "status": "failed",
+  "failed_stage": "time",
+  "error": "Invalid, zero, or too early time prediction (0.50s) for 14.2s video.",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/ltBaGt6A30I_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/ltBaGt6A30I_00.mp4",
+    "region": "World",
+    "scene_layout": "simple_intersection",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Good",
+    "no_frames": "336",
+    "duration": "14.180833",
+    "height": "720",
+    "width": "1280"
+  },
+  "frame_path": null,
+  "frame_index": null,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/ltBaGt6A30I_00.jsonl",
+  "submission_row": {
+    "path": "videos/ltBaGt6A30I_00.mp4",
+    "accident_time": 0.5,
+    "center_x": 0.5,
+    "center_y": 0.5,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/ltBaGt6A30I_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/ltBaGt6A30I_00.csv",
+    "selected_type_track_ids": [],
+    "type_track_match_mode": null,
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "accident_time": 0.5
+}

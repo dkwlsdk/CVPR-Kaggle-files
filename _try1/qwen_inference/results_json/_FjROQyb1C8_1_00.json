@@ -1,0 +1,134 @@
+{
+  "status": "ok",
+  "video_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/Detection_Dataset/temp/_FjROQyb1C8_1_00.mp4",
+  "metadata_csv_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/데이터셋/test_metadata.csv",
+  "metadata": {
+    "path": "videos/_FjROQyb1C8_1_00.mp4",
+    "region": "World",
+    "scene_layout": "city_street",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Poor",
+    "no_frames": "164",
+    "duration": "7.5075",
+    "height": "360",
+    "width": "640"
+  },
+  "result": {
+    "accident_time": 3.891,
+    "center_x": 0.59,
+    "center_y": 0.35,
+    "type": "head-on"
+  },
+  "frame_index": 85,
+  "frame_path": "/root/Desktop/workspace/ja/qwen_inference/frames/_FjROQyb1C8_1_00_frame_t3.891.jpg",
+  "raw_log_path": "/root/Desktop/workspace/ja/qwen_inference/raw_logs/_FjROQyb1C8_1_00.jsonl",
+  "submission_row": {
+    "path": "videos/_FjROQyb1C8_1_00.mp4",
+    "accident_time": 3.891,
+    "center_x": 0.59,
+    "center_y": 0.35,
+    "type": "head-on"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/Detection_Dataset/test_features/intra/_FjROQyb1C8_1_00.csv",
+    "inter_csv_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/Detection_Dataset/test_features/inter/_FjROQyb1C8_1_00.csv",
+    "selected_type_track_ids": [
+      103074,
+      103068
+    ],
+    "type_track_match_mode": "nearest_bbox",
+    "feature_error": null,
+    "feature_warning": "Feature CSV was missing jerk; computed fallback jerk during inference."
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      103074,
+      103068
+    ],
+    "match_mode": "nearest_bbox",
+    "matched_frame_idx": 83,
+    "pair_summary": {
+      "pair": "103068_103074",
+      "impact_frame_idx": 83,
+      "distance_at_impact": 208.53787096112777,
+      "min_distance_in_window": 12.580569343237201,
+      "ttc_at_impact": 9999.0,
+      "min_ttc_in_window": 1.158443781266365,
+      "approach_speed_at_impact": -10.307246146559265,
+      "v_rel_at_impact": 10.472071488010375,
+      "relative_angle_at_impact": 174.7827279563576,
+      "trajectory_angle_diff_at_impact": 179.6057599445623,
+      "path_relation": "opposite-direction",
+      "orientation_relation": "head-on-like"
+    },
+    "object_summaries": [
+      {
+        "track_id": 103074,
+        "class_name": "Car",
+        "impact_frame_idx": 83,
+        "start_center_norm": [
+          0.455234375,
+          0.3305138888888889
+        ],
+        "impact_center_norm": [
+          0.6612109374999999,
+          0.351375
+        ],
+        "end_center_norm": [
+          0.6612109374999999,
+          0.351375
+        ],
+        "traj_direction_at_impact": 0.05963392646091813,
+        "mean_velocity_pre_impact": 5.612677886401353,
+        "acceleration_at_impact": -0.5401776187060271,
+        "jerk_at_impact": 1.7669416447679651,
+        "direction_change_at_impact": -0.2438403487104658,
+        "curvature_near_impact": 0.10619402629979487,
+        "movement_span_px": 132.03874705933853,
+        "impact_bbox_norm": [
+          0.62425,
+          0.3236388888888889,
+          0.698171875,
+          0.37911111111111107
+        ],
+        "impact_single_risk_score": 0.13443890125982472
+      },
+      {
+        "track_id": 103068,
+        "class_name": "Bus",
+        "impact_frame_idx": 85,
+        "start_center_norm": [
+          0.5421328125,
+          0.3118333333333333
+        ],
+        "impact_center_norm": [
+          0.32360937500000003,
+          0.29668055555555556
+        ],
+        "end_center_norm": [
+          0.267265625,
+          0.2852916666666667
+        ],
+        "traj_direction_at_impact": -3.096916730664113,
+        "mean_velocity_pre_impact": 6.779630229356683,
+        "acceleration_at_impact": -4.058714963827033,
+        "jerk_at_impact": -0.2534889874312043,
+        "direction_change_at_impact": -0.1232993460581802,
+        "curvature_near_impact": 0.08128606477598632,
+        "movement_span_px": 176.17430360299429,
+        "impact_bbox_norm": [
+          0.2659375,
+          0.2515833333333333,
+          0.38128125,
+          0.3417777777777778
+        ],
+        "impact_single_risk_score": 0.28159643718383065
+      }
+    ],
+    "heuristic_interpretation": [
+      "head-on is the leading hypothesis from opposite trajectories and frontal orientation."
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "status": "failed",
+  "failed_stage": "type",
+  "error": "Invalid type prediction schema: {'reasoning': \"The image shows a multi-lane road at night. There are several vehicles visible. In the foreground, a dark SUV is driving away from the camera. In the middle ground, a silver minivan is turning or merging across lanes. Behind the minivan, a dark sedan is following. Further back, another car is visible. The tracking data indicates a 'crossing' relationship between a truck and a car, with a 'rear-end-like' orientation. However, looking closely at the image, the most prominent interaction is the silver minivan (ID 49699) which appears to be in the process of a maneuver that could lead to a collision, or has just collided. The dark SUV (ID 49697) is behind it. The prompt states this is the 'FIRST clear moment'. The vehicles are in close proximity. The minivan is angled slightly towards the lane of the SUV. The tracking data suggests a rear-end collision is the primary event being tracked (relation=crossing, orientation=rear-end-like). The minivan is moving into the path of the vehicle behind it, or the vehicle behind is moving into the path of the minivan. Given the 'rear-end-like' orientation and the context of a traffic accident, 'rear-end' is the most likely classification based on the provided metadata and visual cues of vehicles following each other closely in a line.\"}",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/GsL5oknV-w0_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/GsL5oknV-w0_00.mp4",
+    "region": "Alabama",
+    "scene_layout": "signalized_intersection",
+    "weather": "normal",
+    "day_time": "night",
+    "quality": "Poor",
+    "no_frames": "310",
+    "duration": "29.958",
+    "height": "720",
+    "width": "1056"
+  },
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/GsL5oknV-w0_00_frame_t6.958.jpg",
+  "frame_index": 72,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/GsL5oknV-w0_00.jsonl",
+  "submission_row": {
+    "path": "videos/GsL5oknV-w0_00.mp4",
+    "accident_time": 6.958,
+    "center_x": 0.736,
+    "center_y": 0.672,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/GsL5oknV-w0_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/GsL5oknV-w0_00.csv",
+    "selected_type_track_ids": [
+      49697,
+      49699
+    ],
+    "type_track_match_mode": "inside_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      49697,
+      49699
+    ],
+    "match_mode": "inside_bbox",
+    "matched_frame_idx": 72,
+    "track_ids_in_context": [
+      49697,
+      49699
+    ],
+    "pair_ids_in_context": [
+      "49697_49699"
+    ]
+  },
+  "accident_time": 6.958
+}

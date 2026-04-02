@@ -1,0 +1,60 @@
+{
+  "status": "ok",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/TwHVVK-smoQ_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/TwHVVK-smoQ_00.mp4",
+    "region": "Wisconsin",
+    "scene_layout": "highway",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Poor",
+    "no_frames": "438",
+    "duration": "29.378",
+    "height": "1080",
+    "width": "2400"
+  },
+  "result": {
+    "accident_time": 3.9,
+    "center_x": 0.51,
+    "center_y": 0.624,
+    "type": "rear-end"
+  },
+  "frame_index": 58,
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/TwHVVK-smoQ_00_frame_t3.900.jpg",
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/TwHVVK-smoQ_00.jsonl",
+  "submission_row": {
+    "path": "videos/TwHVVK-smoQ_00.mp4",
+    "accident_time": 3.9,
+    "center_x": 0.51,
+    "center_y": 0.624,
+    "type": "rear-end"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/TwHVVK-smoQ_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/TwHVVK-smoQ_00.csv",
+    "selected_type_track_ids": [
+      92395,
+      92426
+    ],
+    "type_track_match_mode": "inside_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      92395,
+      92426
+    ],
+    "match_mode": "inside_bbox",
+    "matched_frame_idx": 58,
+    "track_ids_in_context": [
+      92395,
+      92426
+    ],
+    "pair_ids_in_context": [
+      "92395_92426"
+    ]
+  }
+}

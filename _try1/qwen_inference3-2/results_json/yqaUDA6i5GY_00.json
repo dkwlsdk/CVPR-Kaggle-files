@@ -1,0 +1,60 @@
+{
+  "status": "ok",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/yqaUDA6i5GY_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/yqaUDA6i5GY_00.mp4",
+    "region": "Iowa",
+    "scene_layout": "simple_intersection",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Poor",
+    "no_frames": "442",
+    "duration": "29.444999999999997",
+    "height": "1080",
+    "width": "2400"
+  },
+  "result": {
+    "accident_time": 11.4,
+    "center_x": 0.34,
+    "center_y": 0.45,
+    "type": "t-bone"
+  },
+  "frame_index": 171,
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/yqaUDA6i5GY_00_frame_t11.400.jpg",
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/yqaUDA6i5GY_00.jsonl",
+  "submission_row": {
+    "path": "videos/yqaUDA6i5GY_00.mp4",
+    "accident_time": 11.4,
+    "center_x": 0.34,
+    "center_y": 0.45,
+    "type": "t-bone"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/yqaUDA6i5GY_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/yqaUDA6i5GY_00.csv",
+    "selected_type_track_ids": [
+      183044,
+      183069
+    ],
+    "type_track_match_mode": "inside_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      183044,
+      183069
+    ],
+    "match_mode": "inside_bbox",
+    "matched_frame_idx": 171,
+    "track_ids_in_context": [
+      183044,
+      183069
+    ],
+    "pair_ids_in_context": [
+      "183044_183069"
+    ]
+  }
+}

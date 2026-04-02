@@ -1,0 +1,25 @@
+{
+  "video_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/데이터셋/test_videos/__WFqm4i3vE_00.mp4",
+  "metadata_csv_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/데이터셋/test_metadata.csv",
+  "metadata": {
+    "path": "videos/__WFqm4i3vE_00.mp4",
+    "region": "Virginia",
+    "scene_layout": "simple_intersection",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Poor",
+    "no_frames": "382",
+    "duration": "25.5",
+    "height": "1080",
+    "width": "1920"
+  },
+  "result": {
+    "accident_time": 10.0,
+    "center_x": 0.53,
+    "center_y": 0.51,
+    "type": "single"
+  },
+  "frame_index": 149,
+  "frame_path": "/root/Desktop/workspace/ja/qwen_single_video_test_output/__WFqm4i3vE_00_frame_t10.000.jpg",
+  "raw_log_path": "/root/Desktop/workspace/ja/qwen_single_video_test_output/raw_outputs.jsonl"
+}

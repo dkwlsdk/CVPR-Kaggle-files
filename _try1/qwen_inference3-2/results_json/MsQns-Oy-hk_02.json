@@ -1,0 +1,60 @@
+{
+  "status": "ok",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/MsQns-Oy-hk_02.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/MsQns-Oy-hk_02.mp4",
+    "region": "World",
+    "scene_layout": "simple_intersection",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Excellent",
+    "no_frames": "37",
+    "duration": "1.433333",
+    "height": "1080",
+    "width": "1920"
+  },
+  "result": {
+    "accident_time": 0.1,
+    "center_x": 0.34,
+    "center_y": 0.34,
+    "type": "rear-end"
+  },
+  "frame_index": 2,
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/MsQns-Oy-hk_02_frame_t0.100.jpg",
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/MsQns-Oy-hk_02.jsonl",
+  "submission_row": {
+    "path": "videos/MsQns-Oy-hk_02.mp4",
+    "accident_time": 0.1,
+    "center_x": 0.34,
+    "center_y": 0.34,
+    "type": "rear-end"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/MsQns-Oy-hk_02.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/MsQns-Oy-hk_02.csv",
+    "selected_type_track_ids": [
+      69340,
+      69341
+    ],
+    "type_track_match_mode": "nearest_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      69340,
+      69341
+    ],
+    "match_mode": "nearest_bbox",
+    "matched_frame_idx": 4,
+    "track_ids_in_context": [
+      69340,
+      69341
+    ],
+    "pair_ids_in_context": [
+      "69340_69341"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{"path": "videos/_9tp71S2Gwg_00.mp4", "stage": "time", "attempt": 1, "raw_output": "{\n  \"accident_time\": 58\n}"}
+{"path": "videos/_9tp71S2Gwg_00.mp4", "stage": "location", "attempt": 1, "raw_output": "{\n  \"center_x\": 580,\n  \"center_y\": 200\n}"}
+{"path": "videos/_9tp71S2Gwg_00.mp4", "stage": "type", "attempt": 1, "raw_output": "{\n  \"type\": \"sideswipe\"\n}"}
+{"path": "videos/_-XReeuhpiE_00.mp4", "stage": "time", "attempt": 1, "raw_output": "{\n  \"accident_time\": 4.0\n}"}
+{"path": "videos/_-XReeuhpiE_00.mp4", "stage": "location", "attempt": 1, "raw_output": "{\n  \"center_x\": 500,\n  \"center_y\": 200\n}"}
+{"path": "videos/_-XReeuhpiE_00.mp4", "stage": "type", "attempt": 1, "raw_output": "{\n  \"type\": \"sideswipe\"\n}"}

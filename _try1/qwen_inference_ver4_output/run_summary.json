@@ -1,0 +1,22 @@
+{
+  "model_name": "Qwen/Qwen3.5-9B",
+  "inference_backend": "transformers",
+  "video_dir": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/Detection_Dataset/temp",
+  "metadata_csv_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/데이터셋/test_metadata.csv",
+  "output_dir": "/root/Desktop/workspace/ja/qwen_inference_ver4_output",
+  "total_rows": 2,
+  "success_count": 1,
+  "failure_count": 1,
+  "failed_videos": [
+    {
+      "path": "videos/unS0-TLF1ao_00.mp4",
+      "failed_stage": "time",
+      "error": "Invalid, zero, or too early time prediction (0.00s) for 5.9s video."
+    }
+  ],
+  "submission_csv_path": "/root/Desktop/workspace/ja/qwen_inference_ver4_output/submission_dl.csv",
+  "started_at": "2026-03-23T05:20:07Z",
+  "finished_at": "2026-03-23T05:22:20Z",
+  "test_mode": true,
+  "test_limit": 0
+}

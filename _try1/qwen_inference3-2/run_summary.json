@@ -1,0 +1,21 @@
+{
+  "model_name": "Qwen/Qwen3.5-9B",
+  "video_dir": "/home/adminuser/workspace/dk/temp",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "output_dir": "/home/adminuser/workspace/dk/qwen_inference3-2",
+  "total_rows": 1,
+  "success_count": 0,
+  "failure_count": 1,
+  "failed_videos": [
+    {
+      "path": "videos/_FjROQyb1C8_1_00.mp4",
+      "failed_stage": "time",
+      "error": "Failed to get valid JSON response for accident_time."
+    }
+  ],
+  "submission_csv_path": "/home/adminuser/workspace/dk/qwen_inference3-2/submission_dl.csv",
+  "started_at": "2026-03-22T04:31:26Z",
+  "finished_at": "2026-03-22T04:46:51Z",
+  "test_mode": true,
+  "test_limit": 2
+}

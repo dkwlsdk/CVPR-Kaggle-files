@@ -1,0 +1,39 @@
+{
+  "status": "failed",
+  "failed_stage": "time",
+  "error": "Invalid, zero, or too early time prediction (0.20s) for 25.5s video.",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/pQ84BiOk854_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/pQ84BiOk854_00.mp4",
+    "region": "Alabama",
+    "scene_layout": "signalized_intersection",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Poor",
+    "no_frames": "383",
+    "duration": "25.534",
+    "height": "720",
+    "width": "1280"
+  },
+  "frame_path": null,
+  "frame_index": null,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/pQ84BiOk854_00.jsonl",
+  "submission_row": {
+    "path": "videos/pQ84BiOk854_00.mp4",
+    "accident_time": 0.2,
+    "center_x": 0.5,
+    "center_y": 0.5,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/pQ84BiOk854_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/pQ84BiOk854_00.csv",
+    "selected_type_track_ids": [],
+    "type_track_match_mode": null,
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "accident_time": 0.2
+}

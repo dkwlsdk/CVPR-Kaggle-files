@@ -1,0 +1,60 @@
+{
+  "status": "ok",
+  "video_path": "/root/Desktop/workspace/ja/temp3/-6SQSDj8cYU_00.mp4",
+  "metadata_csv_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/데이터셋/test_metadata.csv",
+  "metadata": {
+    "path": "videos/-6SQSDj8cYU_00.mp4",
+    "region": "Wisconsin",
+    "scene_layout": "signalized_intersection",
+    "weather": "normal",
+    "day_time": "night",
+    "quality": "Poor",
+    "no_frames": "449",
+    "duration": "29.958",
+    "height": "720",
+    "width": "1056"
+  },
+  "result": {
+    "accident_time": 10.142,
+    "center_x": 0.87,
+    "center_y": 0.414,
+    "type": "t-bone"
+  },
+  "frame_index": 151,
+  "frame_path": "/root/Desktop/workspace/ja/qwen_inference3-4bit/frames/-6SQSDj8cYU_00_frame_t10.142.jpg",
+  "raw_log_path": "/root/Desktop/workspace/ja/qwen_inference3-4bit/raw_logs/-6SQSDj8cYU_00.jsonl",
+  "submission_row": {
+    "path": "videos/-6SQSDj8cYU_00.mp4",
+    "accident_time": 10.142,
+    "center_x": 0.87,
+    "center_y": 0.414,
+    "type": "t-bone"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/Detection_Dataset/test_features2/intra/-6SQSDj8cYU_00.csv",
+    "inter_csv_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/Detection_Dataset/test_features2/inter/-6SQSDj8cYU_00.csv",
+    "selected_type_track_ids": [
+      54,
+      97
+    ],
+    "type_track_match_mode": "inside_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      54,
+      97
+    ],
+    "match_mode": "inside_bbox",
+    "matched_frame_idx": 151,
+    "track_ids_in_context": [
+      54,
+      97
+    ],
+    "pair_ids_in_context": [
+      "54_97"
+    ]
+  }
+}

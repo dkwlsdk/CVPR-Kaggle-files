@@ -1,0 +1,57 @@
+{
+  "status": "failed",
+  "failed_stage": "type",
+  "error": "Invalid type prediction schema: {'reasoning': \"The image shows a white car driving on a road at night. There is no other vehicle visible in the immediate vicinity to collide with. The car appears to be driving normally, or perhaps drifting slightly, but there is no evidence of a collision with another vehicle. The metadata mentions a 'Truck' and 'Car' with velocities, but in this specific frame, only the car is clearly visible and no impact is occurring. The prompt states this is the 'FIRST clear moment of a traffic accident'. If the car is the only object involved in the accident (e.g., hitting a curb, going off-road, or a single-vehicle crash not yet fully visible), it falls under 'single'. However, looking closely at the car's position and the road, it seems to be driving straight. Wait, the prompt says 'This image corresponds to the FIRST clear moment of a traffic accident'. If the car is the only one visible and no other vehicle is present to collide with, it must be a single-vehicle accident. The metadata mentions a truck and car, but they might be out of frame or the 'accident' is the car's behavior itself. Given the options, 'single' is the most logical choice if no other vehicle is seen interacting. Let's re-evaluate. The car is in the right lane. The road curves. There are no other cars. Therefore, it is a single vehicle accident.\"}",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/fcc1sGDTQLM_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/fcc1sGDTQLM_00.mp4",
+    "region": "World",
+    "scene_layout": "city_street",
+    "weather": "normal",
+    "day_time": "night",
+    "quality": "Fine",
+    "no_frames": "476",
+    "duration": "18.833",
+    "height": "720",
+    "width": "1280"
+  },
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/fcc1sGDTQLM_00_frame_t17.800.jpg",
+  "frame_index": 450,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/fcc1sGDTQLM_00.jsonl",
+  "submission_row": {
+    "path": "videos/fcc1sGDTQLM_00.mp4",
+    "accident_time": 17.8,
+    "center_x": 0.77,
+    "center_y": 0.51,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/fcc1sGDTQLM_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/fcc1sGDTQLM_00.csv",
+    "selected_type_track_ids": [
+      130954,
+      130987
+    ],
+    "type_track_match_mode": "inside_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      130954,
+      130987
+    ],
+    "match_mode": "inside_bbox",
+    "matched_frame_idx": 450,
+    "track_ids_in_context": [
+      130954,
+      130987
+    ],
+    "pair_ids_in_context": [
+      "130954_130987"
+    ]
+  },
+  "accident_time": 17.8
+}

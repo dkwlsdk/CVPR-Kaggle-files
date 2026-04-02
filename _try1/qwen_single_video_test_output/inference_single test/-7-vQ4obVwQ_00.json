@@ -1,0 +1,25 @@
+{
+  "video_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/데이터셋/test_videos/-7-vQ4obVwQ_00.mp4",
+  "metadata_csv_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/데이터셋/test_metadata.csv",
+  "metadata": {
+    "path": "videos/-7-vQ4obVwQ_00.mp4",
+    "region": "Wisconsin",
+    "scene_layout": "signalized_intersection",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Poor",
+    "no_frames": "401",
+    "duration": "29.958",
+    "height": "720",
+    "width": "1056"
+  },
+  "result": {
+    "accident_time": 6.0,
+    "center_x": 0.57,
+    "center_y": 0.55,
+    "type": "single"
+  },
+  "frame_index": 80,
+  "frame_path": "/root/Desktop/workspace/ja/qwen_single_video_test_output/-7-vQ4obVwQ_00_frame_t6.000.jpg",
+  "raw_log_path": "/root/Desktop/workspace/ja/qwen_single_video_test_output/-7-vQ4obVwQ_00.jsonl"
+}

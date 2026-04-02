@@ -1,0 +1,57 @@
+{
+  "status": "failed",
+  "failed_stage": "type",
+  "error": "Invalid type prediction schema: {'reasoning': \"The image shows a wide intersection with multiple lanes and traffic signals. There are several cars visible, including a white car in the center lane and a dark car further back. The traffic appears to be moving normally or stopped at lights. There is no visible collision, impact, or vehicle damage in this frame. The vehicles are positioned in their respective lanes without any indication of a crash occurring at this specific moment. Therefore, the most likely classification is 'single' as no other vehicle interaction is evident, or it could be a false positive for an accident if the video is just showing normal traffic. However, given the prompt implies an accident is happening, and no collision is visible, 'single' is the safest bet for a non-collision event or a vehicle going off-road (though none is clearly off-road here). Wait, looking closer at the prompt, it says 'This image corresponds to the FIRST clear moment of a traffic accident'. If no accident is visible, it might be a 'single' vehicle accident like a car hitting a pole or going off road, but none is clearly visible. Let's re-evaluate. The prompt asks to classify the accident type. If the image shows normal traffic, and the accident hasn't happened yet or is about to happen, it's tricky. But usually, these tasks show the accident. Let's look for subtle cues. Is a car spinning? No. Is a car hitting a barrier? No. Is a car hitting another? No. The most logical conclusion, given the options and the lack of visible collision, is 'single' (perhaps a vehicle is about to hit something or has just hit something off-frame, or the 'accident' is a minor incident not fully captured). However, looking at the metadata, 'region: Alabama', 'scene_layout: signalized_intersection'. The cars are just driving. If I must choose, 'single' is the only one that fits a scene with no visible multi-vehicle interaction. But wait, is there a car going off the road? The white car in the middle seems to be driving straight. The dark car behind it is also driving straight. The cars on the right are parked or moving slowly. There is no accident visible. This is a trick question or the accident is 'single' (e.g. a car hitting a pole that is not clearly visible or just out of frame). Let's assume 'single' because no other type is supported by visual evidence.\"}",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/Z3s9Wv38oRc_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/Z3s9Wv38oRc_00.mp4",
+    "region": "Alabama",
+    "scene_layout": "signalized_intersection",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Poor",
+    "no_frames": "898",
+    "duration": "29.967",
+    "height": "720",
+    "width": "1280"
+  },
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/Z3s9Wv38oRc_00_frame_t23.226.jpg",
+  "frame_index": 695,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/Z3s9Wv38oRc_00.jsonl",
+  "submission_row": {
+    "path": "videos/Z3s9Wv38oRc_00.mp4",
+    "accident_time": 23.226,
+    "center_x": 0.5,
+    "center_y": 0.5,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/Z3s9Wv38oRc_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/Z3s9Wv38oRc_00.csv",
+    "selected_type_track_ids": [
+      103334,
+      103047
+    ],
+    "type_track_match_mode": "nearest_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      103334,
+      103047
+    ],
+    "match_mode": "nearest_bbox",
+    "matched_frame_idx": 697,
+    "track_ids_in_context": [
+      103334,
+      103047
+    ],
+    "pair_ids_in_context": [
+      "103047_103334"
+    ]
+  },
+  "accident_time": 23.226
+}

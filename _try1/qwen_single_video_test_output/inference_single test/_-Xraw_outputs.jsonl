@@ -1,0 +1,3 @@
+{"path": "videos/_-XReeuhpiE_00.mp4", "stage": "time", "attempt": 1, "raw_output": "{\n  \"accident_time\": 4.0\n}\n"}
+{"path": "videos/_-XReeuhpiE_00.mp4", "stage": "location", "attempt": 1, "raw_output": "{\"center_x\": 0.51, \"center_y\": 0.33}\n"}
+{"path": "videos/_-XReeuhpiE_00.mp4", "stage": "type", "attempt": 1, "raw_output": "{\n  \"type\": \"single\"\n}\n"}

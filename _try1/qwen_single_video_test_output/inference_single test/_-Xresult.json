@@ -1,0 +1,25 @@
+{
+  "video_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/데이터셋/test_videos/_-XReeuhpiE_00.mp4",
+  "metadata_csv_path": "/root/Desktop/workspace/ja/CVPR-Kaggle-files/데이터셋/test_metadata.csv",
+  "metadata": {
+    "path": "videos/_-XReeuhpiE_00.mp4",
+    "region": "Minnesota",
+    "scene_layout": "highway",
+    "weather": "snow",
+    "day_time": "day",
+    "quality": "Fine",
+    "no_frames": "695",
+    "duration": "29.967",
+    "height": "720",
+    "width": "1080"
+  },
+  "result": {
+    "accident_time": 4.0,
+    "center_x": 0.51,
+    "center_y": 0.33,
+    "type": "single"
+  },
+  "frame_index": 92,
+  "frame_path": "/root/Desktop/workspace/ja/qwen_single_video_test_output/_-XReeuhpiE_00_frame_t4.000.jpg",
+  "raw_log_path": "/root/Desktop/workspace/ja/qwen_single_video_test_output/raw_outputs.jsonl"
+}

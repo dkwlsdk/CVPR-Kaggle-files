@@ -1,0 +1,57 @@
+{
+  "status": "failed",
+  "failed_stage": "type",
+  "error": "Failed to get valid JSON response for type.",
+  "video_path": "/home/adminuser/workspace/dk/test_dataset/test_videos/yS2IYwSqqVk_00.mp4",
+  "metadata_csv_path": "/home/adminuser/workspace/dk/test_dataset/test_metadata.csv",
+  "metadata": {
+    "path": "videos/yS2IYwSqqVk_00.mp4",
+    "region": "Virginia",
+    "scene_layout": "simple_intersection",
+    "weather": "normal",
+    "day_time": "day",
+    "quality": "Poor",
+    "no_frames": "449",
+    "duration": "29.958",
+    "height": "720",
+    "width": "960"
+  },
+  "frame_path": "/home/adminuser/workspace/dk/qwen_inference3-2/frames/yS2IYwSqqVk_00_frame_t5.271.jpg",
+  "frame_index": 78,
+  "raw_log_path": "/home/adminuser/workspace/dk/qwen_inference3-2/raw_logs/yS2IYwSqqVk_00.jsonl",
+  "submission_row": {
+    "path": "videos/yS2IYwSqqVk_00.mp4",
+    "accident_time": 5.271,
+    "center_x": 0.42,
+    "center_y": 0.34,
+    "type": "single"
+  },
+  "feature_context": {
+    "status": "loaded",
+    "intra_csv_path": "/home/adminuser/workspace/dk/test_features_2/intra/yS2IYwSqqVk_00.csv",
+    "inter_csv_path": "/home/adminuser/workspace/dk/test_features_2/inter/yS2IYwSqqVk_00.csv",
+    "selected_type_track_ids": [
+      182513,
+      182502
+    ],
+    "type_track_match_mode": "inside_bbox",
+    "feature_error": null,
+    "feature_warning": null
+  },
+  "type_object_context_summary": {
+    "selected_track_ids": [
+      182513,
+      182502
+    ],
+    "match_mode": "inside_bbox",
+    "matched_frame_idx": 78,
+    "track_ids_in_context": [
+      182513,
+      182502
+    ],
+    "pair_ids_in_context": [
+      "182502_182513"
+    ]
+  },
+  "accident_time": 5.271
+}

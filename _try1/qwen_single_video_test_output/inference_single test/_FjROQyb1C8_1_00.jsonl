@@ -1,0 +1,3 @@
+{"path": "videos/_FjROQyb1C8_1_00.mp4", "stage": "time", "attempt": 1, "raw_output": "{\n  \"accident_time\": 3.0\n}\n"}
+{"path": "videos/_FjROQyb1C8_1_00.mp4", "stage": "location", "attempt": 1, "raw_output": "{\n  \"center_x\": 0.48,\n  \"center_y\": 0.35\n}\n"}
+{"path": "videos/_FjROQyb1C8_1_00.mp4", "stage": "type", "attempt": 1, "raw_output": "{\n  \"type\": \"single\"\n}\n"}
